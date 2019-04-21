@@ -97,7 +97,7 @@ h2 {
  }
 
 
-p {
+.info {
     float: left;
     width: 940px;
     clear: both;
@@ -160,4 +160,82 @@ footer {
     content: "";
     clear: both;
     display: table;
+}
+
+@media only screen and (max-width: 980px) {
+
+    .page, h2 {
+        width: 90%;
+    }
+    .info {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container {
+        width: 300px;
+        height: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .page, h2 {
+        width: 95%;
+    }
+    .info {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container {
+    width: 300px;
+    height: 300px;
+    }   
+}
+
+@media only screen and (max-width: 640px) {
+    header{
+        width: 90%;
+        margin: 0px;
+        display: table;
+    }
+    h1 {
+        float: none;
+        width: 90%;
+        margin: 0px;
+        font-size: 3em;
+        clear: both;
+        display: table;
+
+    }
+    #top-links {
+        width: 90%;
+        clear: both;
+        margin: 0px;
+        float: none;
+        display: table;
+    }
+    h2 {
+        width: 95%;
+        text-align: center;
+        font-size: 3em;
+        margin: auto;
+    }
+     .page {
+
+     }
+
+
+    .info {
+        width: 95%;
+        margin: 0px;
+        padding: 0px;
+    }
+        .container {
+        width: 75%;
+        height: 75%;
+        margin:10%;
+        font-size: 2em;
+    }
 }
